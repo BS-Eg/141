@@ -2,7 +2,7 @@ version: '3.4'
 services:
   od141:
     container_name: od141
-    image: odoo:16
+    image: odoo:14
     user: root
     depends_on:
       - db141
